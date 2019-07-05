@@ -1,10 +1,10 @@
 modalID: 7
 title: Monitorowanie postępu nauki
 #subtitle: Informacje wstępne
-date: 2014-07-06
+#date: 2014-07-06
 img: startup-framework.png
 preview: startup-framework-preview.png
-client: Start Bootstrap
-clientLink: "#"
+#client: Start Bootstrap
+#clientLink: "#"
 #category: Website Design
-description: 
+description: Śledź postępy nauki poprzez odpowiednio przygotowany mechanizm raportowania osiąganych wyników dostępny zarówno dla kreatora danego kursu, jak i jego uczestnika. Raporty w postaci statystyk pokazują zarówno ogólne rezultaty osiągnięte w poszczególnych zadaniach, jak i procentowy współczynnik poprawnych odpowiedzi do negatywnych. Dzięki temu zwiększ swoją efektywność i motywację do dalszej nauki. 

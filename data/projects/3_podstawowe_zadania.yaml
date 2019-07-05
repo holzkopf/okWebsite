@@ -1,10 +1,10 @@
-modalID: 5
-title: Forum dyskusyjne
+modalID: 3
+title: Podstawowe zadania
 subtitle: Lorem ipsum dolor sit amet consectetur.
 date: 2014-07-07
 img: treehouse.png
 preview: treehouse-preview.png
-client: Start Bootstrap
-clientLink: "#"
+#client: Start Bootstrap
+#clientLink: "#"
 #category: Website Design
 description: 

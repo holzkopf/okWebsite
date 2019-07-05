@@ -1,10 +1,10 @@
-modalID: 3
-title: Podstawowe zadania
-subtitle: Lorem ipsum dolor sit amet consectetur.
-date: 2014-07-09
+modalID: 4
+title: Interaktywne zadania
+subtitle: "\"Jeżeli koncepcja od samego początku nie jest szalona, nie ma dla niej żadnej nadziei\" Albert Einstein"
+#date: 2014-07-09
 img: golden.png
 preview: golden-preview.png
-client: Start Bootstrap
-clientLink: "#"
+#client: Start Bootstrap
+#clientLink: "#"
 # category: Website Design
-description: 
+description: Sprawdź się rozwiązując odpowiednio przygotowane przez kreatora kursu zadania w trakcie jego trwania lub tuż po jego zakończeniu.  Zadania są zróżnicowane zarówno poziomem trudności, jak i formą ich wykonania np. zadania tekstowe, zadania wielokrotnego wyboru, zadania z otwartą odpowiedzią, zadania typu przeciągnij i upuść. Dzięki tej funkcjonalności powtórzenie materiału nigdy nie było tak proste i szybkie, a zdobyta wiedza trwała. Ponadto, specjalny system weryfikacji wiedzy pozwala na przesłanie natychmiastowej informacji zwrotnej o osiągniętych wynikach.

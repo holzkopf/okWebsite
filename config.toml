@@ -136,10 +136,10 @@ googleAnalytics = ""
     subtitle = "Nasza platforma edukacyjna bazuje na systemie Open edX - oprogramowanie open-source, stworzone przez dwa czołowe uniwersystety na świecie Harvard i MIT"
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+      #client = "Client"
+      #date = "Date"
+      #category = "Category"
+      buttonText = "Wróć do strony głównej"
 
 
     # About section
@@ -260,9 +260,9 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Kontakt"
-    subtitle  = "Zróbmy razem coś wspaniałego"
+    subtitle  = "filipchodorowski@gmail.com <br><br>+48 726 914 041"
     buttonText = "Wyślij wiadomość"
-    # netlify = true
+    #netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -289,7 +289,7 @@ She worked at Pied Piper for years until they went belly up."""
     error = "Wiadomość nie może zostać wysłana, proszę skontaktuj się z nami wysyłając wiadomość na filipchodorowski@gmail.com"
 
     [params.contact.captcha]
-      # sitekey = ""
+      sitekey = "6LeONawUAAAAAAgEwT7SpqFosSjGSlK7xTgPDP3O"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -322,25 +322,25 @@ She worked at Pied Piper for years until they went belly up."""
     enable = false
     copyright = "Published under the Apache License 2.0."
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
+#    [[params.footer.social]]
+#      icon = "fa-twitter"
+#      link = "#"
+#      title = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
+#    [[params.footer.social]]
+#      icon = "fa-facebook"
+#      link = "#"
+#      title = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
+#    [[params.footer.social]]
+#      icon = "fa-linkedin"
+#      link = "#"
+#      title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+#    [[params.footer.quicklinks]]
+#      text = "Privacy Policy"
+#      link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+#    [[params.footer.quicklinks]]
+#      text = "Terms of Use"
+#      link = "#"

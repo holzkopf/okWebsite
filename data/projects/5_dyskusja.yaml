@@ -1,10 +1,10 @@
-modalID: 4
-title: Interaktywne zadania
-subtitle: Lorem ipsum dolor sit amet consectetur.
-date: 2014-07-08
+modalID: 5
+title: Forum dyskusyjne
+subtitle: "\"Najtrudniej zbić argumenty kogoś mówiącego nie na temat.\" Stefan Kisielewski"
+#date: 2014-07-08
 img: escape.png
 preview: escape-preview.png
-client: Start Bootstrap
-clientLink: "#"
+#client: Start Bootstrap
+#clientLink: "#"
 #category: Website Design
-description: 
+description: Rozwiązuj problemy na bieżąco, tłumacz innym zadania,  pracuj nad projektem, zadawaj pytania,a także wyrażaj opinie,  korzystając z możliwości jakie daje Ci forum dyskusyjne. Tym samym poszerzysz wiedzę, zwiększysz kompetencje negocjacyjne, nauczysz się pracy zespołowej, jak również technik argumentacyjnych, pod doświadczonym “okiem” prowadzącego. Udział w forum dyskusyjnym dostępny jest zarówno dla kreatora kursu, jak i jego uczestników.

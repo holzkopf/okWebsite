@@ -19,15 +19,9 @@
     <div class="row">
       <div class="col-lg-12">
         <form
-          method="POST"
-          name="sentMessage"
-          id="contactForm
-          {{- if $contact.netlify -}}
-            " netlify
-          {{- else -}}
-            " action="{{- $contact.postURL | default (printf "//formspree.io/%s" (or $contact.email .Site.Params.email)) -}}"
-          {{- end -}}>
-
+	  action="https://formspree.io/filipchodorowski@gmail.com" method="POST">
+	  <input type="hidden" name="_language" value="pl" />
+	  <input type="hidden" name="_next" value="http://localhost:1313/"/>
           <fieldset>
             <div class="row">
               <div class="col-md-6">
@@ -42,13 +36,6 @@
                 {{ with $contact.form.email }}
                 <div class="form-group">
                   <input class="form-control" id="email" required="required" type="email" name="email" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
-                  <p class="help-block text-danger"></p>
-                </div>
-                {{ end }}
-
-                {{ with $contact.form.phone }}
-                <div class="form-group">
-                  <input class="form-control" id="phone" required="required" type="number" name="phone" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
@@ -69,11 +56,8 @@
                   {{ with $contact.thanks }}
                     {{ . | markdownify }}
                   {{ else }}
-                    Thank you for contacting us.
+                    Dziękujemy za skontaktowanie się z nami.
                   {{ end }}
-                </div>
-                <div class="captcha-error text-danger" id="captcha-error">
-                  Message is not sendable due to captcha not loadable. Please contact us at {{ (or $contact.email .Site.Params.email) -}}.
                 </div>
                 <div class="text-danger" id="error" style="display:none;">
                   {{ with $contact.error }}
@@ -82,26 +66,9 @@
                     Message could not be send. Please contact us at {{ (or $contact.email .Site.Params.email) }} instead.
                   {{ end }}
                 </div><br />
-                {{ with $contact.captcha }}
-                  <div class="g-recaptcha-container">
-                    <span class="g-recaptcha-filler"></span>
-                    <button
-                      type="submit"
-                      value="Submit"
-                      class="g-recaptcha btn btn-xl"
-                      data-sitekey="{{ .sitekey }}"
-                      data-size="invisible"
-                      data-badge="inline"
-                      data-callback="onContactCaptcha">
-                      {{ print $contact.buttonText }}
-                    </button>
-                    <span class="filler"></span>
-                  </div>
-                {{ else }}
                   <button type="submit" value="Submit" class="btn btn-xl">
                     {{ print $contact.buttonText }}
                   </button>
-                {{ end }}
               </div>
             </div>
             {{ range $contact.form.hidden }}
