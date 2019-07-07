@@ -1,10 +1,10 @@
 modalID: 6
 title: Certyfikaty
-subtitle: Lorem ipsum dolor sit amet consectetur.
+subtitle: "\"Nie myl działania z osiągnięciem\" John Wooden"
 #date: 2014-07-10
-img: dreams.png
-preview: dreams-preview.png
+img: certyfikat.png
+preview: dyplom-preview.png
 #client: Start Bootstrap
 #clientLink: "#"
 # category: Website Design
-description: 
+description: Pokaż wszystkim swoją zdobytą wiedzę potwierdzając ją certyfikatem. Certyfikaty mogą być generowane z domyślnych szablonów lub przygotowane przez kadrę kursu.

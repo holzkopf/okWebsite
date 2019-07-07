@@ -1,10 +1,10 @@
 modalID: 2
 title: LMS - aplikacja ucznia
 #subtitle: Informacje wstępne
-date: 2014-07-06
-img: startup-framework.png
-preview: startup-framework-preview.png
+#date: 2014-07-06
+img: lms_expanded.png
+preview: lms-preview.png
 #client: Start Bootstrap
 #clientLink: "#"
 #category: Website Design
-description: 
+description:  Ucz się jeszcze efektywniej. LMS opiera się na prostym systemie hierarchii rozdziałów i lekcji by w prosty sposób wyszukiwać informację. Interfejs zapewnia intuicyjne przejścia pomiędzy poszczególnymi lekcjami. Oglądaj filmiki, odpowiadaj na pytania, rozmawiaj na forum o swoich spostrzeżeniach. Nauka nigdy nie sprawiała więcej przyjemności i mniej problemów.
