@@ -242,7 +242,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #0091df;
+    color: #adbfdb;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -318,9 +318,9 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 @media(min-width:768px) {

@@ -1,9 +1,9 @@
-modalID: 5
+modalID: dyskusja
 title: Forum dyskusyjne
 subtitle: "\"Najtrudniej zbić argumenty kogoś mówiącego nie na temat.\" Stefan Kisielewski"
 #date: 2014-07-08
 img: dyskusja-expanded.png
-preview: dyskusja-preview.jpg
+preview: dyskusja-preview.png
 #client: Start Bootstrap
 #clientLink: "#"
 #category: Website Design

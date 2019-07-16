@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "pl"
-title = "Ok"
+title = "Eduklik"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -50,7 +50,7 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     logo = "logo.png"
     services = "Zalety"
-    portfolio = "Funkcjonalności"
+    portfolio = "Funkcje"
     about = "Przebieg usługi"
     team = "Zespół"
     contact = "Kontakt"
@@ -76,7 +76,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Witamy w naszej firmie Ok!"
+    #title = "Witamy w naszej firmie Eduklik!"
     subtitle = "Platforma edukacyjna"
     buttonText = "Dowiedz się więcej"
 
@@ -132,7 +132,7 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Funkcjonalności"
+    title = "Funkcje"
     subtitle = "Nasza platforma edukacyjna bazuje na systemie Open edX - oprogramowanie open-source, stworzone przez dwa czołowe uniwersystety na świecie Harvard i MIT"
 
     [params.portfolio.modal]
