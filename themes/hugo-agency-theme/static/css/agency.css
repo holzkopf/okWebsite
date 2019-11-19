@@ -751,9 +751,14 @@ aside .heading {
     margin-bottom: -40px;
 }
 
+section#team {
+    background-color: #ffff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 section#contact {
     background-color: #f7f7f7;
-    #background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -899,6 +904,7 @@ ul.social-buttons li a:active {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content ul.list-inline {

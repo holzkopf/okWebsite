@@ -19,7 +19,7 @@ googleAnalytics = ""
   # information about you and your website.
   name = "Pltaforma Edukacyjna open edx"
   description = "Platforma Edukacyjna, open edx, service provider, e-learning, mooc, online kursy"
-  email = "filipchodorowski@gmail.com"
+  email = "kontakt@eduklik.pl"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -133,7 +133,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Funkcje"
-    subtitle = "Nasza platforma edukacyjna bazuje na systemie Open edX - oprogramowanie open-source, stworzone przez dwa czołowe uniwersystety na świecie Harvard i MIT"
+    subtitle = "Nasza platforma edukacyjna bazuje na systemie Open edX - oprogramowanie stworzone przez dwa czołowe uniwersystety na świecie Harvard i MIT"
 
     [params.portfolio.modal]
       #client = "Client"
@@ -154,7 +154,7 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.png"
-      date = "1"
+      date = "1."
       title = "Prezentacja platformy edukacyjnej"
       description = "Prezentacja pełnych możliwości platformy edukacyjnej zdalnie lub u klienta. Wstępna rozmowa na temat kosztów wdrożenia platformy i oczekiwań."
 
@@ -166,68 +166,83 @@ googleAnalytics = ""
 
     [[params.about.events]]
       img = "3.png"
-      date = "3"
+      date = "3."
       title = "Wdrożenie platformy według wymagań"
       description = "Realizacja wdrożenia platformy według wymagań zawartych w umowie."
 
     [[params.about.events]]
       img = "4.png"
-      date = "4"
+      date = "4."
       title = "Szkolenie"
       description = "Kompleksowe szkolenie przedstawiające możliwości platformy przygotowujące nauczycieli do tworzenia kursów."
+
+  # Demonstration course section
+  [params.demo]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Kurs demonstracyjny"
+    subtitle = "Kliknij w kurs demonstracyjny i przekonaj się jak może wyglądać Twój kurs od środka, od strony informacyjnej, po zadania i dyskusje"
+    description = "Wierzymy, że każdy powinien mieć dostęp do niesamowitej technologii. Nasz zespół w Eduklik rozwija przyszłość, którą jest edukacja i łatwiejszy do niej dostęp. Eduklik składa się z nadzwyczajnych jednostek, które tworzą jeden zgrany zespół, razem możemy zmienić świat na lepsze."
 
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Nasz zespół"
+   # subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "Wierzymy, że każdy powinien mieć dostęp do niesamowitej technologii. Nasz zespół w Eduklik rozwija przyszłość, którą jest edukacja i łatwiejszy do niej dostęp. Eduklik składa się z nadzwyczajnych jednostek, które tworzą jeden zgrany zespół, razem możemy zmienić świat na lepsze."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      img = "kolek.png"
+      name = "Filip Kołeczko"
+      position = "Współzałożyciel"
+#      livesIn = "[Poznań, Polska](#some-maps-url)"
       scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+        "Zarządzanie",
+      	"Finanse",
+        "Marketing"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """"""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+#        ["fa-twitter", "#"],
+        ["fa-facebook", "https://www.facebook.com/filipkoleczko"],
+#        ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      img = "hodor.png"
+      name = "Filip Chodorowski"
+      position = "Współzałożyciel"
+      scope = [
+      	"Zarządzanie",
+        "Rozwój oprogramowania"
+      ]
+      bio = """Nasz niesamowity inżynier, swoją wiedzę zdobywał na Politechnice Wrocławskiej gdzie budował roboty i bawił się elektroniką. Pracował dla takich firm jak Diehl Controls, KGHM Cuprum, Globallogic (kontraktor dla Google'a). Po ukończeniu wielu kursów online na platformie edX, wpada na pomysł założenia własnej platformy edukacyjnej."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://pl.linkedin.com/in/filip-chodorowski-4b4385138"]
       ]
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "Adrian Kurpisz"
+      position = "Grafik Designer"
+      scope = [
+      	"Zarządzanie marką",
+        "Projektowanie graficzne"
+      ]
       social = [
-        ["fa-twitter", "#"],
+        ["fa-instagram", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
+
 
   # Client section
     [params.clients_list]
@@ -260,7 +275,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Kontakt"
-    subtitle  = "filipchodorowski@gmail.com <br><br>+48 726 914 041"
+    subtitle  = "e-mail: kontakt@eduklik.pl <br><br>tel: +48 504 318 276"
     buttonText = "Wyślij wiadomość"
     #netlify = true
 
@@ -282,11 +297,11 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "filipchodorowski@gmail.com"
+    email = "kontakt@eduklik.pl"
 
     # Success and error message overwrite for async contact form
     thanks = "Dziękujemy Ci za kontakt z nami."
-    error = "Wiadomość nie może zostać wysłana, proszę skontaktuj się z nami wysyłając wiadomość na filipchodorowski@gmail.com"
+    error = "Wiadomość nie może zostać wysłana, proszę skontaktuj się z nami wysyłając wiadomość na kontakt@eduklik.pl"
 
     [params.contact.captcha]
       sitekey = "6LeONawUAAAAAAgEwT7SpqFosSjGSlK7xTgPDP3O"
